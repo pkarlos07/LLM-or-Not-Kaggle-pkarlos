@@ -31,7 +31,6 @@ Libraries used:
 ```text
 project-folder/
 │
-├── .git/
 ├── data/
 │   ├── train.csv
 │   └── test.csv
