@@ -26,7 +26,7 @@ Libraries used:
 * scikit-learn
 * tqdm
 
-# Project Structure
+## Project Structure
 
 ```text
 project-folder/
@@ -41,13 +41,13 @@ project-folder/
 └── README.md
 ```
 
-# How to Run
+## How to Run
 
 Run this like you would any other .ipynb file.
 This project works in a CUDA enabled environment for significant time reduction.
 Expect the model to train in around 30 minutes (trained on Kaggle with NVIDIA T4 x2).
 
-# Author
+## Author
 
 Peter Karlos
 Computer Engineering Student at the University of Illinois Urbana-Champaign.
