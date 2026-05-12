@@ -3,7 +3,6 @@
 ## Overview
 
 This project fine-tunes the TinyBERT transformer model for binary text classification using PyTorch and Hugging Face Transformers.
-Run this like a reguler .ipynb file in a CUDA environment.
 
 The notebook:
 
@@ -27,23 +26,30 @@ Libraries used:
 * scikit-learn
 * tqdm
 
----
-
 # Project Structure
 
 ```text
 project-folder/
 │
-├── pkarlos2-tinybert.ipynb
-├── train.csv
-├── test.csv
-├── prediction.csv   # Generated after inference
+├── .git/
+├── data/
+│   ├── train.csv
+│   └── test.csv
+├── notebooks/
+│   └── pkarlos2-tinybert.ipynb
+├── outputs/
+│   └── prediction.csv
 └── README.md
 ```
 
----
+# How to Run
+
+Run this like you would any other .ipynb file.
+This project works in a CUDA enabled environment for significant time reduction.
+Expect the model to train in around 30 minutes (trained on Kaggle with NVIDIA T4 x2).
 
 # Author
 
 Peter Karlos
-Freshman Computer Engineering Student at the University of Illinois Urbana-Champaign.
+Computer Engineering Student at the University of Illinois Urbana-Champaign.
+
